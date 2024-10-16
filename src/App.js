@@ -41,6 +41,11 @@ function App() {
     }
   };
 
+
+  const handleClick = () => {
+    window.location.href = 'https://joke-generator-lac.vercel.app/hindi';
+  };
+
   // Function to remove a joke by ID
   const removeJoke = (id) => {
     setJokes((prevJokes) => prevJokes.filter((joke) => joke.id !== id));
@@ -49,6 +54,7 @@ function App() {
   return (
     <div className="container">
       <h1>Random Joke API Test</h1>
+      <button className="button" onClick={handleClick}>HINDI jOKE</button>
       <JokeLoaderButton loadNewJoke={loadNewJoke} />
       <div>
         <h3 className="header">
