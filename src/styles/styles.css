@@ -2,8 +2,9 @@
 body {
     margin: 0;
     padding: 0;
-    background: #00000080;
-    font-family: Arial, sans-serif;
+    background: rgba(34, 193, 195, 1);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1)0%, rgba(253, 187, 45, 1)100%);
+    min-height: 96vh;
 }
 
 .container {
@@ -16,8 +17,7 @@ body {
     margin: 0 auto;
     margin-top: 25px;
     border-radius: 10px;
-    background: rgba(34, 193, 195,1);
-    background: linear-gradient(0deg, rgba(34, 193, 195,1)0%, rgba(253,187,45,1)100%);
+    background-color: #ffffff20;
     color: #343a40;
     font-family: Arial, sans-serif;
     width: 40%;
@@ -71,6 +71,7 @@ body {
     margin-top: 20px;
     font-weight: bold;
 }
+
 hr {
     width: 100%;
     margin-top: 20px;
